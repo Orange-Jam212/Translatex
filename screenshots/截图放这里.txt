@@ -1,0 +1,6 @@
+把应用界面的截图放到这个文件夹，命名对应 README 中的引用：
+
+- main.png              → 主界面全貌
+- screenshot-translate.png → 截图翻译效果
+- annotations.png        → PDF 标注与笔记
+- notes-engine.png       → 笔记处理引擎
