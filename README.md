@@ -4,10 +4,10 @@
 
 # translatex
 
-🚀 **一键截图，AI 翻译学术文献**
+🚀 **一键截图，AI 翻译学术文献** — 仅支持 macOS
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![PySide6](https://img.shields.io/badge/PySide6-6.0+-green.svg)](https://doc.qt.io/qtforpython-6/)
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
@@ -60,8 +60,8 @@
 
 #### 环境要求
 
-- **操作系统**：macOS 12+
-- **Python**：3.9 或其他版本
+- **操作系统**：仅支持 macOS（测试于 14/15）
+- **Python**：3.9+（3.9 实测可用，其他版本请自行测试）
 
 ```bash
 # 克隆仓库
