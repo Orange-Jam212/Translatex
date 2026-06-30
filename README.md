@@ -45,14 +45,17 @@
 
 ### 方式一：下载即用（推荐）
 
-1. 前往 [Releases](https://github.com/你的用户名/translatex/releases) 页面
-2. 下载最新的 `translatex.dmg` 或 `translatex.app.zip`
-3. 解压后将 `translatex.app` 拖入「应用程序」文件夹
-4. 双击运行
-
-> `.app` 已内置完整的 Python 运行环境、PySide6 和所有依赖，**无需安装 Python**，开箱即用。
-
-> ⚠️ 首次启动时，macOS 可能提示「无法验证开发者」。请前往 **系统设置 → 隐私与安全性 → 仍要打开**。
+1. 前往 [Releases](https://github.com/Orange-Jam212/Translatex/releases) 页面
+2. 下载最新的 `translatex.dmg`
+3. 双击 `translatex.dmg` 挂载，将 `translatex.app` 拖到桌面（不要放 Applications，因为需要解除隔离）
+4. 打开终端（Terminal），输入以下命令**不要回车**：
+   ```
+   sudo xattr -r -d com.apple.quarantine
+   ```
+5. 在上面的命令后面按一下**空格**，然后把桌面的 `translatex.app` **拖进终端窗口**，路径会自动填入
+6. **回车**执行，输入你的 Mac 密码（输密码时屏幕不会显示，正常）
+7. 双击桌面上的 `translatex.app` 运行，macOS 会提示需要**辅助功能权限**——去 **系统设置 → 隐私与安全性 → 辅助功能** 中勾选 `translatex`
+8. 重新打开软件，按 **`⌘+K`** 截图，期间如果弹出新权限请求，全部允许即可
 
 ---
 
@@ -65,7 +68,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/你的用户名/translatex.git
+git clone https://github.com/Orange-Jam212/translatex.git
 cd translatex
 
 # 安装依赖
@@ -216,7 +219,7 @@ PDF 文件大小限制为 50MB。超出此限制的文件请预先压缩。
 
 ## 🤝 反馈与帮助
 
-- 🐛 **提交 Bug**：[GitHub Issues](https://github.com/你的用户名/translatex/issues)
+- 🐛 **提交 Bug**：[GitHub Issues](https://github.com/Orange-Jam212/translatex/issues)
 - 💡 **功能建议**：欢迎在 Issues 中提出新功能构想
 - 📧 **邮件联系**：jice3739262@gmail.com
 
