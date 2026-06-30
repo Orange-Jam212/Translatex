@@ -140,7 +140,6 @@ translatex 提供两种交互界面，自由切换：
 
 > 快捷键可在「设置」中自定义（支持录制任意组合键）
 
-![截图翻译演示](screenshots/screenshot-translate.png)
 
 ---
 
@@ -161,7 +160,7 @@ translatex 提供两种交互界面，自由切换：
 - 笔记列表支持文件夹分类，右键可重命名/删除  
 - **单击笔记** 自动跳转到 PDF 对应页面；**双击笔记** 进入 Markdown 编辑器进行修改
 
-![笔记标注演示](notes.png)
+![笔记标注演示](screenshots/notes.png)
 
 ---
 
