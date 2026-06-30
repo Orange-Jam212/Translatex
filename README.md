@@ -85,7 +85,7 @@ pip install pyinstaller
 python package.py
 ```
 
-打包完成后，`dist/translatex.app` 即为自包含的独立应用，可拷贝给他人使用。桌面会自动创建快捷方式。
+打包完成后，`dist/translatex.app` 即为自包含独立应用，桌面会自动创建快捷方式。
 
 ---
 
