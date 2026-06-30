@@ -96,17 +96,17 @@ translatex 依赖视觉大模型 API 完成翻译与问答，目前支持兼容 
 ### 配置步骤
 
 1. **获取 API Key**  
-   以阿里千问为例：前往 [DashScope 控制台](https://dashscope.console.aliyun.com/) 创建 API Key。
-
-2. **打开设置面板**  
-   启动 translatex 后，点击顶部导航栏的 **「设置」**，然后点击 **「进入设置」** 解锁。
-
-3. **填入配置（以千问为例）**
-
-   | 配置项 | 说明 | 示例值 |
-   |--------|------|--------|
-   | API Key | 你的大模型 API 密钥 | `sk-xxxxxxxx` |
-   | API URL | 兼容 OpenAI Chat Completions 的接口地址，例如： | `https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions` |
+   以阿里百炼为例：前往 [阿里云百炼控制台](https://bailian.console.aliyun.com/) → API Key 页面创建密钥。
+ 
+ 2. **打开设置面板**  
+    启动 translatex 后，点击顶部导航栏的 **「设置」**，然后点击 **「进入设置」** 解锁。
+ 
+ 3. **填入配置（以阿里百炼为例）**
+ 
+    | 配置项 | 说明 | 示例值 |
+    |--------|------|--------|
+    | API Key | 你的大模型 API 密钥 | `sk-ws-xxxxxxxx` |
+    | API URL | 兼容 OpenAI 的接口地址 | `https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions` |
    | 模型名称 | 需要支持视觉的多模态模型 | `qwen-vl-plus` |
    | 专业领域 | 你的研究方向，影响翻译语气 | `金融学、计量经济学` |
 
@@ -126,7 +126,7 @@ translatex 提供两种交互界面，自由切换：
 | 🖥️ **主控台** | 全功能面板，包含设置、文献管理、学术搜索、阅读器四大板块 |
 | 🫧 **悬浮窗** | 轻量毛玻璃弹窗，专注翻译 + 追问，适合阅读时随手截屏 |
 
-> 按下 `` Cmd + ` `` 可一键切换主控台 / 悬浮窗。
+> 按下 `` Cmd + ` `` 可一键弹起 / 最小化悬浮窗。
 
 ---
 
@@ -183,7 +183,7 @@ translatex 提供两种交互界面，自由切换：
 | 快捷键 | 功能 |
 |--------|------|
 | `Cmd + K` | 截图翻译（默认，可自定义） |
-| `` Cmd + ` `` | 切换主控台 / 悬浮窗 |
+| `` Cmd + ` `` | 悬浮窗弹起 / 最小化 |
 
 所有快捷键均可在「设置」面板中录制自定义。
 
